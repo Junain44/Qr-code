@@ -21,7 +21,7 @@ body{
 
 .qr-component{
     width:288px;
-    height: 499px;
+    height: auto;
     padding: 15px 15px;
     border: 0px solid black;
     border-radius: 15px;
@@ -60,5 +60,8 @@ p{
     font-weight: 400;
     color: hsl(216, 15%, 48%);
     text-align: center;
-    padding: 10px 12px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
