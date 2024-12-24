@@ -13,15 +13,16 @@ body{
 }
 
 .section{
-    padding: 10rem;
-    display: grid;  
+    display: grid;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .qr-component{
-    width: 300px;
-    height: auto;
-    padding: 20px;
+    width:288px;
+    height: 499px;
+    padding: 15px 15px;
     border: 0px solid black;
     border-radius: 15px;
     background: #fff;
@@ -34,6 +35,8 @@ body{
 
 img{
     width: 100%;
+    width:288px;
+    height: 288px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -47,7 +50,7 @@ h4 {
     font-weight: 700;
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 10px 10px;
 
 }
 
@@ -57,5 +60,5 @@ p{
     font-weight: 400;
     color: hsl(216, 15%, 48%);
     text-align: center;
-    padding: 4px;
+    padding: 10px 12px;
 }
